@@ -1,0 +1,19 @@
+{
+    "name": "sortarad/peculiarpointer",
+    "autoload": {
+        "psr-4": {
+            "Sortarad\\Peculiarpointer\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Peculiarpointer",
+            "description": "Peculiarpointer addon"
+        },
+        "laravel": {
+            "providers": [
+                "Sortarad\\Peculiarpointer\\ServiceProvider"
+            ]
+        }
+    }
+}
