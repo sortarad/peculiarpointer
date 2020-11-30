@@ -20,11 +20,13 @@ class PeculiarPointer extends Modifier
      */
     public function index($value, $params, $context)
     {
-        $pointer = collect($value)->map(function ($item) {
+        $pointer = collect($value)->filter(function($item) {
+            return $item->isImage() || $item->isSvg();
+        })->map(function ($item) {
             return $item->url();
-        })->filter()->values()->first();
+        })->values()->first();
 
-        if( ! $pointer ) {
+        if(! $pointer) {
             return null;
         }
 
