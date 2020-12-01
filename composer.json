@@ -1,5 +1,9 @@
 {
     "name": "sortarad/peculiarpointer",
+    "description": "Pointers don't have to be boring",
+    "keywords": ["statamic"],
+    "homepage": "https://github.com/sortarad/peculiarpointer",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Sortarad\\Peculiarpointer\\": "src"
