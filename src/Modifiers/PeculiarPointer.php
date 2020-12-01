@@ -32,7 +32,7 @@ class PeculiarPointer extends Modifier
 
         $styles = [
             sprintf('cursor: url(%1$s) 0 0, pointer;', $pointer ),
-            sprintf('-webkit-image-set(url(%1$s) 1x, url(%1$s) 2x) 0 0, pointer', $pointer ),
+            sprintf('cursor: -webkit-image-set(url(%1$s) 1x, url(%1$s) 2x) 0 0, pointer', $pointer ),
         ];
         $value = sprintf( 'style="%s"', implode( $styles ) );
 
