@@ -1,8 +1,8 @@
 ## Peculiar Pointer
-You know that little arrow looking thingy that moves when you move your mouse, that's a pointer. 
+> That little arrow looking thingy that moves when you move your mouse, that's a pointer. 
 
-Did you also know that's it's super boring? If it was a sandwich it would be wonderbread with mayo. That's how boring it is. 
+The default pointers are fine. If they were a sandwich it would be wonder bread with mayo. Sure, that sandwich would sate your hunger but you wouldn't enjoy it. Is that what you want for your site visitors? Do you want to leave them full but unsatisfied? Of course not, don't be ridicilous (said like Balki Bartokomous). 
 
-Fear not, I have a solution, it's called peculiar pointer.
+Fear not, we have a solution, it's called peculiar pointer.
 
-I know there are naysayers out there saying why do I need to worry about my site's pointers. It's fine, let's just leave it alone. 
+With peculiar pointer you'll be able to set a different pointer on every page (even every container if you're that rad). 
